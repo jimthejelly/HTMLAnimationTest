@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet');
+
+@keyframes background {
+  0% {background-color: #FFE6E1;}
+  50% {background-color: #FFA18E;}
+  100% {background-color: #D073E0;}
+}
+
+@keyframes text {
+  0% {font-family: Courier New;}
+  25% {font-family: Times New Roman;}
+  50% {font-family: "Dancing Script";}
+  75% {font-family: Helvetica;}
+}
+
+/*===========*/
+/*  GENERAL  */
+/*===========*/
+
+body {
+  background-color: #FFE6E1;
+  animation-name: background;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+footer {
+  text-align: center;
+}
+
+/*============*/
+/*  DIVISORS  */
+/*============*/
+
+#div1 {
+  padding: 150px;
+  background-color: #09146A3B;
+  
+}
+
+/*=======*/
+/*  IDS  */
+/*=======*/
+
+#title {
+  font-family: Courier New;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  
+  animation-name: text;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
