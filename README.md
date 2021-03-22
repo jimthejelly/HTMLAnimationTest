@@ -1,2 +1,2 @@
 # HTMLAnimationTest
-A test repository to see how animations work in HTML.
+A test repository to work and improve animations in HTML websites (using both CSS and JS)
